@@ -1,0 +1,17 @@
+@import './media.scss';
+
+:root {
+    --primary: #b88d57;
+    --text-black: #000000;
+    --hover: #8b693f;
+    --text-white: #ffffff;
+    font-size: 10px; //TODO 7.5px
+
+    @include tablet-s {
+        font-size: 7.5px;
+    }
+
+    @include mobile-s {
+        font-size: 5px;
+    }
+}
