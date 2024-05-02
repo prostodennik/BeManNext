@@ -56,13 +56,13 @@ const Header = () => {
             </Popup>
           </li>
           <li className="header__item">
-            <a href="/masters">Мастера</a>
+            <a href="/Masters">Мастера</a>
           </li>
           <li className="header__item">
-            <a href="/cosmetics">Косметика</a>
+            <a href="/Cosmetics">Косметика</a>
           </li>
           <li className="header__item">
-            <a href="/contacts">Контакты</a>
+            <a href="/Contacts">Контакты</a>
           </li>
           <li className="header__item">
             <a href="/stock">Акции</a>
