@@ -35,7 +35,7 @@ const mockDataMasters: IMastersCardProps[] = [
 const Masters = () => {
   return (
     <>
-      {/* <MobileMenu cn="mobile-menu-mob" /> */}
+      <MobileMenu cn="mobile-menu-mob" />
 
       <div className="masters container">
         <div className="masters__title-block">
@@ -54,7 +54,7 @@ const Masters = () => {
         </div>
       </div>
       <div className="sign-up">
-        {/* <Btn style={{ width: "22.8rem" }} /> */}
+        <Btn style={{ width: "22.8rem" }} />
       </div>
     </>
   );
