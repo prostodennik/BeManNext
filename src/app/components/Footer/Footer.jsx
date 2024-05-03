@@ -1,8 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 
 // import { ReactComponent as Logo } from '../../assets/icons/logo-white.svg';
+import Logo from "../../assets/icons/logo-white.svg";
 import Cat from "../../assets/images/cat.jpg";
 
 import "./Footer.scss";
@@ -22,7 +24,7 @@ const Footer = () => {
     <div className="footer" style={{ position: "relative" }}>
       {showPhoto && (
         <div style={{ color: "#000" }}>
-          <img
+          <Image
             src={Cat}
             className="footer__img"
             alt="Cat"
@@ -54,6 +56,12 @@ const Footer = () => {
       )}
       <div className="footer__left">
         {/* <Logo style={{ margin: '0 0 2.4rem', maxWidth: '100%' }} onClick={handleClick} /> */}
+        <Image
+          src={Logo}
+          alt="Logo"
+          style={{ margin: "0 0 2.4rem", maxWidth: "100%", width: "20rem" }}
+          onClick={handleClick}
+        />
         ИП Бабаева Насиба Алиевна <br /> ОГРН: 321508100297833 ИНН: 500404764301
       </div>
       <div className="footer__right">

@@ -1,8 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import "./MobileMenu.scss";
 // import { ReactComponent as Logo } from "../../assets/icons/logo-white.svg";
+import Logo from "../../assets/icons/logo-white.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
 import Button from "../Btn/Btn";
 // import { useLocation } from "react-router-dom";
@@ -49,15 +51,16 @@ const MobileMenu = ({ cn }: MobileMenuProps) => {
         >
           WhatsApp
         </a>
-        <a href="/">
-          {/* <Logo style={{ width: "20rem" }} className="mobile-menu__logo" /> */}
-        </a>
+        <a href="/" className="mobile-menu__logo"></a>
         <div onClick={openMenu} className="mobile-menu__open"></div>
       </div>
       {isOpen && (
         <div className={`mobile-menu__wrap ${isOpen ? "open" : ""}`}>
           <div className="mobile-menu__head-open">
-            <a href="/">{/* <Logo style={{ width: "20rem" }} /> */}</a>
+            <a href="/">
+              {/* <Logo style={{ width: "20rem" }} /> */}
+              <Image src={Logo} alt="logo" style={{ width: "20rem" }} />
+            </a>
             <div className="mobile-menu__close" onClick={closeMenu} />
           </div>
           <div className="mobile-menu__menu">

@@ -1,4 +1,6 @@
 // import { ReactComponent as Logo } from '../../assets/icons/logo.svg';
+import Image from "next/image";
+import Logo from "../../assets/icons/logo.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
 // import { useLocation } from "react-router-dom";
 import Popup from "../../ui-kit/Popup/Popup";
@@ -18,7 +20,9 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header__logo">
-        <a href="/">{/* <Logo className="header__logo-icon" /> */}</a>
+        <a href="/">
+          <Image src={Logo} alt="Logo" className="header__logo-icon" />
+        </a>
       </div>
       <nav className="header__nav">
         <ul className="header__list">

@@ -35,7 +35,7 @@ const mockDataMasters: IMastersCardProps[] = [
 const Masters = () => {
   return (
     <>
-      <MobileMenu cn="mobile-menu-mob" />
+      <MobileMenu cn="mobile-menu-mob logo-black" />
 
       <div className="masters container">
         <div className="masters__title-block">
