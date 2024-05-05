@@ -16,12 +16,6 @@ import Masters from "./Masters/page";
 import Privacy from "./Privacy/Privacy";
 import Blog from "./Blog/Blog";
 
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", function () {
-    navigator.serviceWorker.register("/service-worker.js");
-  });
-}
-
 function App() {
   return (
     <div className="App">
