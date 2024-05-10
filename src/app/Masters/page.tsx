@@ -6,8 +6,10 @@ import Master2 from "../assets/images/master-2.png";
 
 import Btn from "../components/Btn/Btn";
 import MobileMenu from "../components/MobileMenu/ModileMenu";
+import Header from "../components/Header/Header";
 
 import "./Masters.scss";
+import Footer from "../components/Footer/Footer";
 
 const mockDataMasters: IMastersCardProps[] = [
   {
@@ -35,6 +37,7 @@ const mockDataMasters: IMastersCardProps[] = [
 const Masters = () => {
   return (
     <>
+      <Header />
       <MobileMenu cn="mobile-menu-mob logo-black" />
 
       <div className="masters container">
@@ -56,6 +59,7 @@ const Masters = () => {
       <div className="sign-up">
         <Btn style={{ width: "22.8rem" }} />
       </div>
+      <Footer />
     </>
   );
 };

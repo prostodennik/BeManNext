@@ -1,8 +1,11 @@
+import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
 import MobileMenu from "../components/MobileMenu/ModileMenu";
 
 const Privacy = () => {
   return (
     <>
+      <Header />
       <MobileMenu cn="mobile-menu-mob" />
       <div style={{ padding: "0 2.4rem 0" }}>
         <h2
@@ -349,6 +352,7 @@ const Privacy = () => {
           ИНН: 500404764301
         </p>
       </div>
+      <Footer />
     </>
   );
 };

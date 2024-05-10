@@ -6,15 +6,15 @@ import "./App.scss";
 import Header from "./components/Header/Header";
 import MainPage from "./MainPage/MainPage";
 import Footer from "./components/Footer/Footer";
-import Stock from "./components/Stock/Stock";
-import PriceBasic from "./Price/PriceBasic/PriceBasic";
-import PriceAdditionally from "./Price/PriceAdditionally/PriceAdditionally";
-import PriceComplex from "./Price/PriceComplex/PriceComplex";
-import Contacts from "./Contacts/Contacts";
-import Сosmetics from "./Сosmetics/Сosmetics";
+import Stock from "./Stock/page";
+import PriceBasic from "./Price/PriceBasic/page";
+import PriceAdditionally from "./Price/PriceAdditionally/page";
+import PriceComplex from "./Price/PriceComplex/page";
+import Contacts from "./Contacts/page";
+import Сosmetics from "./Makeup/page";
 import Masters from "./Masters/page";
-import Privacy from "./Privacy/Privacy";
-import Blog from "./Blog/Blog";
+import Privacy from "./Privacy/page";
+import Blog from "./Blog/page";
 
 function App() {
   return (
@@ -22,18 +22,6 @@ function App() {
       <div className="container">
         <Header />
         <MainPage />
-        {/* <Routes>
-          <Route path="/" element={<MainPage />} />
-          <Route path="/stock" element={<Stock />} />
-          <Route path="/price-basic" element={<PriceBasic />} />
-          <Route path="/price-additionally" element={<PriceAdditionally />} />
-          <Route path="/price-complex" element={<PriceComplex />} />
-          <Route path="/contacts" element={<Contacts />} />
-          <Route path="/cosmetics" element={<Сosmetics />} />
-          <Route path="/masters" element={<Masters />} />
-          <Route path="/privacy" element={<Privacy />} />
-          <Route path="/blog" element={<Blog />} />
-        </Routes> */}
       </div>
       <Footer />
     </div>

@@ -1,4 +1,6 @@
 // import { ReactComponent as Logo } from '../../assets/icons/logo.svg';
+"use client";
+
 import Image from "next/image";
 import Logo from "../../assets/icons/logo.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
@@ -48,9 +50,9 @@ const Header = () => {
               // subtext="Которую можно сделать вокруг любого элемента"
               element={
                 <>
-                  <a href="/price-basic">Основное</a>
-                  <a href="/price-additionally">дополнительно</a>
-                  <a href="/price-complex">комплекс</a>
+                  <a href="/Price/PriceBasic">Основное</a>
+                  <a href="/Price/PriceAdditionally">дополнительно</a>
+                  <a href="/Price/PriceComplex">комплекс</a>
                 </>
               }
             >
@@ -63,16 +65,16 @@ const Header = () => {
             <a href="/Masters">Мастера</a>
           </li>
           <li className="header__item">
-            <a href="/Cosmetics">Косметика</a>
+            <a href="/Makeup">Косметика</a>
           </li>
           <li className="header__item">
             <a href="/Contacts">Контакты</a>
           </li>
           <li className="header__item">
-            <a href="/stock">Акции</a>
+            <a href="/Stock">Акции</a>
           </li>
           <li className="header__item">
-            <a href="/blog">Блог</a>
+            <a href="/Blog">Блог</a>
           </li>
         </ul>
       </nav>

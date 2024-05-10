@@ -1,10 +1,11 @@
+import Header from "@/app/components/Header/Header";
 import Btn from "../../components/Btn/Btn";
 import MobileMenu from "../../components/MobileMenu/ModileMenu";
 import Photo from "../../components/Photo/Photo";
 
 import "../Price.scss";
-
-export const mockData = {
+import Footer from "@/app/components/Footer/Footer";
+const mockData = {
   data: [
     { title: "камуфляж бороды (полный)", price: "700 Р", id: 1 },
     { title: "камуфляж головы", price: "1000 Р", id: 1 },
@@ -18,6 +19,7 @@ export const mockData = {
 const PriceAdditionally = () => {
   return (
     <>
+      <Header />
       <MobileMenu cn="mobile-menu-mob" />
 
       <div className="price" id="Price">
@@ -39,6 +41,7 @@ const PriceAdditionally = () => {
         <Btn style={{ margin: "0 0 2.4rem 0 " }} />
       </div>
       <Photo style={{ margin: "0 0 2.4rem 0 " }} />
+      <Footer />
     </>
   );
 };

@@ -5,6 +5,8 @@ import { BlogCard } from "../components/BlogCard/BlogCard";
 
 import "./Blog.scss";
 import Btn from "../components/Btn/Btn";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 const mockDatablog: IBlogCardProps[] = [
   {
@@ -21,6 +23,7 @@ const mockDatablog: IBlogCardProps[] = [
 const Blog = () => {
   return (
     <>
+      <Header />
       <MobileMenu cn="mobile-menu-mob" />
 
       <div className="blog container">
@@ -43,6 +46,7 @@ const Blog = () => {
       <div className="sign-up">
         <Btn style={{ width: "22.8rem" }} />
       </div>
+      <Footer />
     </>
   );
 };

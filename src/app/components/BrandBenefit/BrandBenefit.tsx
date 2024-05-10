@@ -6,7 +6,7 @@ import DoneIcon from "../../assets/icons/done.svg";
 
 import "./BrandBenefit.scss";
 
-export const BrandBenefit: React.FC<IBrandBenefitProps> = (
+const BrandBenefit: React.FC<IBrandBenefitProps> = (
   props: IBrandBenefitProps
 ): React.ReactElement => {
   return (
@@ -18,3 +18,5 @@ export const BrandBenefit: React.FC<IBrandBenefitProps> = (
     </div>
   );
 };
+
+export default BrandBenefit;

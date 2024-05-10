@@ -2,10 +2,12 @@ import Image from "next/image";
 
 import Btn from "../components/Btn/Btn";
 import Morgans from "../assets/images/morgans.png";
-import { BrandBenefit } from "../components/BrandBenefit/BrandBenefit";
+import BrandBenefit from "../components/BrandBenefit/BrandBenefit";
 import MobileMenu from "../components/MobileMenu/ModileMenu";
 
-import "./Сosmetics.scss";
+import "./Makeup.scss";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 const brandBenefits = [
   "Английское качество",
@@ -14,23 +16,24 @@ const brandBenefits = [
   "Доступная стоимость",
 ];
 
-const Сosmetics = () => {
+const Сosmetic = () => {
   return (
     <>
+      <Header />
       <MobileMenu cn="mobile-menu-mob" />
 
-      <div className="cosmetics">
-        <div className="cosmetics__title-block">
-          <div className="cosmetics__title page-title">Косметика</div>
-          <div className="cosmetics__subtitle page-subtitle">
+      <div className="makeup">
+        <div className="makeup__title-block">
+          <div className="makeup__title page-title">Косметика</div>
+          <div className="makeup__subtitle page-subtitle">
             работаем только с лучшими брендами
           </div>
         </div>
-        <div className="cosmetics__morgans">
+        <div className="makeup__morgans">
           <Image src={Morgans} alt={`Morgan's`} />
         </div>
 
-        <div className="cosmetics__brand-description">
+        <div className="makeup__brand-description">
           <p>
             Основанная в 1873 году компания Morgan&apos;s сейчас известна во
             всем мире и является воплощением старомодных ценностей. Мы гордимся
@@ -39,16 +42,16 @@ const Сosmetics = () => {
           </p>
         </div>
 
-        <div className="cosmetics__brand-benefits">
-          <div className="cosmetics__brand-benefits-title">
+        <div className="makeup__brand-benefits">
+          <div className="makeup__brand-benefits-title">
             Почему в своей работе мы выбрали именно этот бренд:
           </div>
-          <div className="cosmetics__benefits">
+          <div className="makeup__benefits">
             {brandBenefits.map((benefitDescription: string, index: number) => {
               return (
                 <BrandBenefit
                   description={benefitDescription}
-                  className="cosmetics__benefits-item"
+                  className="makeup__benefits-item"
                   key={index}
                 />
               );
@@ -60,8 +63,9 @@ const Сosmetics = () => {
       <div className="sign-up">
         <Btn style={{ width: "22.8rem" }} />
       </div>
+      <Footer />
     </>
   );
 };
 
-export default Сosmetics;
+export default Сosmetic;

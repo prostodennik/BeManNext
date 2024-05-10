@@ -1,10 +1,11 @@
+import Header from "@/app/components/Header/Header";
 import Btn from "../../components/Btn/Btn";
 import MobileMenu from "../../components/MobileMenu/ModileMenu";
 import Photo from "../../components/Photo/Photo";
 
 import "../Price.scss";
-
-export const mockData = {
+import Footer from "@/app/components/Footer/Footer";
+const mockData = {
   data: [
     { title: "друг + друг", price: "2400 Р", id: 2 },
     {
@@ -20,6 +21,7 @@ export const mockData = {
 const PriceComplex = () => {
   return (
     <>
+      <Header />
       <MobileMenu cn="mobile-menu-mob" />
       <div className="price" id="Price">
         <h2 className="price__title">Услуги и цены</h2>
@@ -39,6 +41,7 @@ const PriceComplex = () => {
         <Btn style={{ margin: "0 0 2.4rem 0 " }} />
       </div>
       <Photo style={{ margin: "0 0 2.4rem 0 " }} />
+      <Footer />
     </>
   );
 };

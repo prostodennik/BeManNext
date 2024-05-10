@@ -1,14 +1,18 @@
 import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
 import MobileMenu from "../components/MobileMenu/ModileMenu";
+import ContactsComponent from "../components/Contacts/Contacts";
 
 import "./Contacts.scss";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 const Contacts = () => {
   return (
     <>
+      <Header />
       <MobileMenu cn="mobile-menu-mob" />
 
-      <div className="contacts" id="Contacts">
+      {/* <div className="contacts" id="Contacts">
         <h2 className="contacts__title">контакты</h2>
         <ul className="contacts__list">
           <YMaps>
@@ -71,7 +75,9 @@ const Contacts = () => {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
+      <ContactsComponent />
+      <Footer />
     </>
   );
 };
