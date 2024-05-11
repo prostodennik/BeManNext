@@ -6,7 +6,7 @@ const Privacy = () => {
   return (
     <div className="App">
       <Header />
-      <MobileMenu cn="mobile-menu-mob" />
+      <MobileMenu cn="mobile-menu-mob logo-black" />
       <div style={{ padding: "0 2.4rem 0" }}>
         <h2
           style={{

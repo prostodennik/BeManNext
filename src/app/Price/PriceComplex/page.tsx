@@ -22,7 +22,7 @@ const PriceComplex = () => {
   return (
     <div className="App">
       <Header />
-      <MobileMenu cn="mobile-menu-mob" />
+      <MobileMenu cn="mobile-menu-mob logo-black" />
       <div className="price" id="Price">
         <h2 className="price__title">Услуги и цены</h2>
         <h3 className="price__subtitle">

@@ -13,7 +13,7 @@ const Stock = () => {
   return (
     <div className="App">
       <Header />
-      <MobileMenu cn={"mobile-menu-mob"} />
+      <MobileMenu cn={"mobile-menu-mob logo-black"} />
       <div className="stock__img-wrap">
         <Image className="stock__img" src={ImgStockOne} alt="ImgStock" />
         <Image className="stock__img" src={ImgStockTwo} alt="ImgStock" />

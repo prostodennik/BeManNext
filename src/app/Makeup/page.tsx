@@ -20,7 +20,7 @@ const Сosmetic = () => {
   return (
     <div className="App">
       <Header />
-      <MobileMenu cn="mobile-menu-mob" />
+      <MobileMenu cn="mobile-menu-mob logo-black" />
 
       <div className="makeup">
         <div className="makeup__title-block">

@@ -23,7 +23,9 @@ const Top = () => {
       </div>
       <div className="top top_mobile">
         <MobileMenu />
-        <h1 className="top__title top__title_mobile">BE MAN</h1>
+        <h1 className="top__title top__title_mobile">
+          BE <br /> MAN
+        </h1>
         <div className="top__subtitle top__subtitle_mobile">
           место, где каждый <br /> будет чувствовать <br /> себя джентльменом
         </div>

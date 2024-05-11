@@ -10,7 +10,7 @@ const Contacts = () => {
   return (
     <div className="App">
       <Header />
-      <MobileMenu cn="mobile-menu-mob" />
+      <MobileMenu cn="mobile-menu-mob logo-black" />
 
       {/* <div className="contacts" id="Contacts">
         <h2 className="contacts__title">контакты</h2>
