@@ -11,7 +11,7 @@ import Footer from "../components/Footer/Footer";
 
 const Stock = () => {
   return (
-    <>
+    <div className="App">
       <Header />
       <MobileMenu cn={"mobile-menu-mob"} />
       <div className="stock__img-wrap">
@@ -20,7 +20,7 @@ const Stock = () => {
         <Image className="stock__img" src={ImgStockThree} alt="ImgStock" />
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

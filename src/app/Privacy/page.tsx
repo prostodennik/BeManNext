@@ -4,7 +4,7 @@ import MobileMenu from "../components/MobileMenu/ModileMenu";
 
 const Privacy = () => {
   return (
-    <>
+    <div className="App">
       <Header />
       <MobileMenu cn="mobile-menu-mob" />
       <div style={{ padding: "0 2.4rem 0" }}>
@@ -353,7 +353,7 @@ const Privacy = () => {
         </p>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

@@ -8,7 +8,7 @@ import Footer from "../components/Footer/Footer";
 
 const Contacts = () => {
   return (
-    <>
+    <div className="App">
       <Header />
       <MobileMenu cn="mobile-menu-mob" />
 
@@ -78,7 +78,7 @@ const Contacts = () => {
       </div> */}
       <ContactsComponent />
       <Footer />
-    </>
+    </div>
   );
 };
 

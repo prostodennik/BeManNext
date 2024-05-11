@@ -22,7 +22,7 @@ const mockDatablog: IBlogCardProps[] = [
 
 const Blog = () => {
   return (
-    <>
+    <div className="App">
       <Header />
       <MobileMenu cn="mobile-menu-mob" />
 
@@ -47,7 +47,7 @@ const Blog = () => {
         <Btn style={{ width: "22.8rem" }} />
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

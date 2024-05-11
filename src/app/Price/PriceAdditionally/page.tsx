@@ -18,7 +18,7 @@ const mockData = {
 
 const PriceAdditionally = () => {
   return (
-    <>
+    <div className="App">
       <Header />
       <MobileMenu cn="mobile-menu-mob" />
 
@@ -42,7 +42,7 @@ const PriceAdditionally = () => {
       </div>
       <Photo style={{ margin: "0 0 2.4rem 0 " }} />
       <Footer />
-    </>
+    </div>
   );
 };
 

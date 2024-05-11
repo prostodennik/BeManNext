@@ -20,7 +20,7 @@ const mockData = {
 
 const PriceComplex = () => {
   return (
-    <>
+    <div className="App">
       <Header />
       <MobileMenu cn="mobile-menu-mob" />
       <div className="price" id="Price">
@@ -42,7 +42,7 @@ const PriceComplex = () => {
       </div>
       <Photo style={{ margin: "0 0 2.4rem 0 " }} />
       <Footer />
-    </>
+    </div>
   );
 };
 

@@ -18,7 +18,7 @@ const brandBenefits = [
 
 const Сosmetic = () => {
   return (
-    <>
+    <div className="App">
       <Header />
       <MobileMenu cn="mobile-menu-mob" />
 
@@ -64,7 +64,7 @@ const Сosmetic = () => {
         <Btn style={{ width: "22.8rem" }} />
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
