@@ -96,31 +96,31 @@ const MobileMenu = ({ cn }: MobileMenuProps) => {
                     <div>
                       <h4 className="mobile-menu__item">Услуги цены</h4>
                       <h6 className="mobile-menu__item-submenu">
-                        <a href="/price-basic">Основное</a>
+                        <a href="/Price/PriceBasic">Основное</a>
                       </h6>
                       <h6 className="mobile-menu__item-submenu">
-                        <a href="/price-additionally">дополнительно</a>
+                        <a href="/Price/PriceAdditionally">дополнительно</a>
                       </h6>
                       <h6 className="mobile-menu__item-submenu">
-                        <a href="/price-complex">комплекс</a>
+                        <a href="/Price/PriceComplex">комплекс</a>
                       </h6>
                     </div>
                   </Popup>
                 </li>
                 <li className="mobile-menu__item">
-                  <a href="/masters">Мастера</a>
+                  <a href="/Masters">Мастера</a>
                 </li>
                 <li className="mobile-menu__item">
-                  <a href="/cosmetics">Косметика</a>
+                  <a href="/Makeup">Косметика</a>
                 </li>
                 <li className="mobile-menu__item">
-                  <a href="/contacts">Контакты</a>
+                  <a href="/Contacts">Контакты</a>
                 </li>
                 <li className="mobile-menu__item">
-                  <a href="/stock">Акции</a>
+                  <a href="/Stock">Акции</a>
                 </li>
                 <li className="mobile-menu__item">
-                  <a href="/blog">Блог</a>
+                  <a href="/Blog">Блог</a>
                 </li>
               </ul>
             </nav>
