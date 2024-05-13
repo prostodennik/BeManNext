@@ -5,8 +5,9 @@ import "../../App.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Мастера",
-  description: "Лучшие барберы города Некрасовка",
+  title: "Услуги на мужскую стрижку | BeMan barbeshop в Люберцах",
+  description:
+    "Профессиональные стрижки для мужчин и детей, коррекция бороды, опасное бритье, химическая завивка и окрашивание. Предлагаем широкий спектр услуг для мужского образа.",
 };
 
 export default function RootLayout({

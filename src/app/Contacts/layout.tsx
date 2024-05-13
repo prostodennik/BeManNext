@@ -5,8 +5,10 @@ import "../App.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Мастера",
-  description: "Лучшие барберы города Некрасовка",
+  title:
+    "Как добраться до нашего барбершопа BeMan | BeMan barbeshop в Люберцах",
+  description:
+    "На странице контактов BeMan Барбершоп вы найдете наш контактный телефон и местоположение на карте. Свяжитесь с нами и посетите наш барбершоп для качественных услуг стрижки и ухода за волосами.",
 };
 
 export default function RootLayout({

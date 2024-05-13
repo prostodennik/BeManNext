@@ -5,8 +5,9 @@ import "../App.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Мастера",
-  description: "Лучшие барберы города Некрасовка",
+  title: "Акции на мужские стрижки в BeMan Барбершоп: Специальные предложения",
+  description:
+    "Узнайте о текущих акциях и скидках на мужские стрижки в BeMan Барбершоп. Получите высококачественное обслуживание по выгодной цене.",
 };
 
 export default function RootLayout({

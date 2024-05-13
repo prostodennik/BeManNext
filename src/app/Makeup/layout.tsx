@@ -5,8 +5,9 @@ import "../App.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Мастера",
-  description: "Лучшие барберы города Некрасовка",
+  title: "Профессиональная Косметика для ухода за волосами и бородой",
+  description:
+    "Исследуйте эксклюзивный ассортимент профессиональной косметики в BeMan Barber Shop. Качественные средства для ухода за волосами и бородой, подобранные нашими мастерами для вашего идеального образа.",
 };
 
 export default function RootLayout({
