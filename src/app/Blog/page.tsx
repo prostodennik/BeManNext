@@ -18,6 +18,15 @@ const mockDatablog: IBlogCardProps[] = [
     ],
     photoSrc: BlogPhoto,
   },
+  {
+    name: "Заголовок",
+    position: "Подзаголовок",
+    alt: "Photo blog",
+    paragraphs: [
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur atque eum eveniet ea expedita aliquam laboriosam itaque sunt. Nesciunt sequi nam nihil deserunt! Dicta fugiat ad eligendi magni laborum odit!",
+    ],
+    photoSrc: BlogPhoto,
+  },
 ];
 
 const Blog = () => {
