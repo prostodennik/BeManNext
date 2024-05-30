@@ -34,6 +34,7 @@ const Footer = () => {
               bottom: "0",
               left: "0",
               zIndex: "99",
+              objectFit: "contain",
             }}
           />
           <div
